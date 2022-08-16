@@ -8,6 +8,71 @@
 <link href="https://fonts.googleapis.com/css?family=open+sans+condensed:300/sonie+one ref="MouseClick computers type="text/css">
 <link rel="stylesheet" type="text/css" href="mouse.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	/* Style the header */
+	header {
+	  background-color: #666;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: white;
+	}
+	
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 30%;
+	  height: 300px; /* only for demonstration, should be removed */
+	  background: #ccc;
+	  padding: 20px;
+	}
+	
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+	
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 70%;
+	  background-color: #f1f1f1;
+	  height: 300px; /* only for demonstration, should be removed */
+	}
+	
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	/* Style the footer */
+	footer {
+	  background-color: #777;
+	  padding: 10px;
+	  text-align: center;
+	  color: white;
+	}
+	
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
 </head>
 <body>
 	
@@ -93,10 +158,23 @@
   </div>
 
 
-
-
-
+  <section>
+	<nav>
+	  <ul>
+		<li><a href="contact.html">contact us</a></li>
+		<li><a href="legal.html">legal stuff</a></li>
+		<li><a href="terms&privacy.html">Terms & Privacy</a></li>
+	  </ul>
+	</nav>
+	
+	<article>
+	  <h1>Talk Legal To Me</h1>
+	  <p></p></article>
+  </section>
   
+
+
+
 </body>
 </html> 
 
