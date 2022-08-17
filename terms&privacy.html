@@ -1,47 +1,261 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>terms&privacy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=open+sans+condensed:300/sonie+one ref="MouseClick computers type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Legal stuff</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=open+sans+condensed:300/sonie+one ref="MouseClick computers type="text/css">
+<link rel="stylesheet" type="text/css" href="mouse.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-       
-    <link rel="stylesheet" type="text/css" href="css/mouseClick.css">
-	</head>
-  <body>
-    
-dryererteuu
+
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	/* Style the header */
+	header {
+	  background-color: #666;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: white;
+	}
+	
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 30%;
+	  height: 300px; /* only for demonstration, should be removed */
+	  background: #ccc;
+	  padding: 20px;
+	}
+	
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+	
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 70%;
+	  background-color: #f1f1f1;
+	  height: 300px; /* only for demonstration, should be removed */
+	}
+	
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	/* Style the footer */
+	
+	
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
+	<style>
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		  font-size: 20px;
+		}
+		
+		#myBtn {
+		  display: none;
+		  position: fixed;
+		  bottom: 20px;
+		  right: 30px;
+		  z-index: 99;
+		  font-size: 18px;
+		  border: none;
+		  outline: none;
+		  background-color: red;
+		  color: white;
+		  cursor: pointer;
+		  padding: 15px;
+		  border-radius: 4px;
+		}
+		
+		#myBtn:hover {
+		  background-color: #555;
+		}
+		</style>
+</head>
+<body>
+	
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<!-- Container wrapper -->
+	<div class="container">
+	  <!-- Navbar brand -->
+	  <a class="navbar-brand me-2" href="index.html">
+		<img
+		  src="images/LOGO.jpg"
+		  height="20"
+		  alt="MDB Logo"
+		  loading="lazy"
+		  style="margin-top: -1px;"
+		/>
+	  </a>
+  
+	  <!-- Toggle button -->
+	  <button
+		class="navbar-toggler"
+		type="button"
+		data-mdb-toggle="collapse"
+		data-mdb-target="#navbarButtonsExample"
+		aria-controls="navbarButtonsExample"
+		aria-expanded="false"
+		aria-label="Toggle navigation"
+	  >
+		<i class="fas fa-bars"></i>
+	  </button>
+  
+	  <!-- Collapsible wrapper -->
+	  <div class="collapse navbar-collapse" id="navbarButtonsExample">
+		<!-- Left links -->
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li class="nav-item">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			Dashbord
+				</a>
+				<ul class="dropdown-menu dropdown-menu-dark">
+				  <li><a class="dropdown-item" href="legal.html">Legal stuff</a></li>
+				  <li><a class="dropdown-item" href="terms&privacy.html">Terms & privacy</a></li>
+				  <li><a class="dropdown-item" href="Security.html">Security</a></li>
+				  <li>
+					<hr class="dropdown-divider">
+				  </li>
+				  <li><a class="dropdown-item" href="about.html">See Profile </a></li>
+				</ul>
+			  </li>
+		  </li>
+		</ul>
+		<!-- Left links -->
+  
+		<div class="d-flex align-items-center">
+		  <button type="button" class="btn btn-link px-3 me-2" ><a href="login .html" target="_blank">Login</a>
+			<div class="d-flex align-items-center">
+				<button type="button" class="btn btn-link px-3 me-2" ><a href="sign.html" target="_blank">Sign up for free</a>
+				  
+				</button>
+		  </button>
+		 
+		  <a
+			class="btn btn-dark px-3"
+			href="index.html"
+			role="button"
+			><i class="fab fa-mouseclick computers"></i
+		  ></a>
+		</div>
+	  </div>
+	  <!-- Collapsible wrapper -->
+	</div>
+	<!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <div class="card text-bg-dark">
+	<img src="/index/images/tttt.jpg" class="card-img" alt="tttt">
+	<div class="card-img-overlay">
+	  <h5 class="card-title"></h5>
+	  <p class="card-text"><h1>legal Stuff</h1></p>
+	  <p class="card-text"><h6>Talk to me Legal </h6></p>
+	</div>
+  </div>
 
 
+  <section>
+	<nav>
+	  <ul>
+		<li><a href="contact.html">contact us</a></li>
+		<li><a href="legal.html">legal stuff</a></li>
+		<li><a href="terms&privacy.html">Terms & Privacy</a></li>
+	  </ul>
+	</nav>
+	
+	<article>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		<div style="background-color:rgb(241, 233, 233);color:white;padding:30px"><a class="navbar-brand me-2" href="index.html">
+			<img
+			  src="images/LOGO.jpg"
+			  height="20"
+			  alt="MDB Logo"
+			  loading="lazy"
+			  style="margin-top: -1px;"
+			/>
+		  </a><h6><font color="black"><b>MouseClick Privacy Policy</b></font></h6></div>
+		<div style="background-color:lightgrey;padding:30px 30px 2500px">We at mouseclick computers and our Affiliates are committed to protecting your privacy. This Privacy Policy applies to the information and data collected by mouseclick when you interact with us on our websites or through other channels (for example, by contacting  to  us , and when you use our products and services. This Privacy Policy describes how we collect, receive, use, store, share, transfer, and process your Personal Data. It also describes your choices and rights with respect to your Personal Data, including your rights of access and correction of your Personal Data. If you do not agree with this Privacy Policy, you should not use our websites or the sign up Service <br>
+		  <strong>Customers may collect and manage Personal Data when using the sign up Service. mouseclick processes such data as a processor under the direction of our customers. Our customers, as data controllers, are responsible for complying with any regulations or laws that require providing notice, disclosure, and/or obtaining consent prior to collecting their customers’ Personal Data using the Slgn up Service. Please see the below section "Information We Collect and Process When You Use the sign up Service</strong>
+<p>We update this Privacy Policy from time to time and we encourage you to review this Privacy Policy periodically. We will post any Privacy Policy changes on this page and, if the changes are material, we will provide a more prominent notice by sending you an email notification, or if you sign up to our products and services, through the Notification app in your mouseclick account. Terms not otherwise defined in this Privacy Policy will have the meaning as set forth in the<br><br>
+	<p>  What Information We Collect About You
+		a. Information You Provide to Mouseclick computers
+		When you interact with us via our websites or use the Subscription Service, we may collect Personal Data and other information from you, as further described below.
+		When You Visit Our Websites
+		We collect Personal Data from you when you submit web forms or interact with our websites, for example signing up  to  amouseclick  blog, signing up for a webinar, or requesting customer support. We may ask for your email address, first and last name,  and other similar  information. You are free to explore some of our websites without providing any Personal Data about yourself
+		</p>
+<p> Information We Collect From Other Sources
+	Mouseclick compuersPartners 
+   We may receive information about you or other users of your HubSpot account from our global network of partners. We may receive this data from our deal and/or lead registration process through our partners or through our partner co-marketing agreements. For more information about our co-marketing program and how we share data with our partners please see below and read about our co-marketing program 
+   </p>
+   <p>To Communicate with You About the Services 
+	We use the data you provide to HubSpot when signing up for the Subscription Service to contact you via email or in-app notification about billing, account management, and other administrative matters. We send updates to you regarding our Customer Terms of Service or other legal agreements. We may also communicate with you about security incidents via email or in-app notification. 
+	We use your information to provide customer support, such as resolving technical issues you encounter and analyzing product outages or bugs. 
+	</p>
+	<p>To Provide and Improve the Subscription Service 
+		We use your account information and Customer Data to provide the product and services to you. For example, we use the email address you provide when signing up for the product to create your user account, and we use your payment information to process payments for paid use of the Subscription Service. 
+		We collect data about how our products and services are used by monitoring and tracking our product users. We use this data to develop and improve our products and services.  For example, we use usage data to assess trends and usage across the product to help us determine what new features or integrations our users may be interested in. We may share usage data externally but will only do so in an anonymized and/or aggregated manner to build and improve product features. 
+		
+		
+		</p>
+
+</p>
 
 
+		</div>
+		
+		<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</article>
+  </section>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 </body>
-    </html>
+</html> 
+
