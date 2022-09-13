@@ -7,7 +7,7 @@ $password = "password";
 $dbname = "mouseclick";
 
 // Create connection
-$conn = new mysqli($host, $root, $password, $mouseclick);
+$conn = new mysqli($localhost, $root, $password, $mouseclick);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
