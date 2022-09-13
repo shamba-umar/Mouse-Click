@@ -2,12 +2,12 @@
 <?php 
 
 $servername = "localhost";
-$username = "username";
+$username = " root";
 $password = "password";
 $dbname = "mouseclick";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $mouseclick);
+$conn = new mysqli($host, $root, $password, $mouseclick);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);

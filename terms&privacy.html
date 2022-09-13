@@ -199,6 +199,28 @@
 			  loading="lazy"
 			  style="margin-top: -1px;"
 			/>
+			<script>
+				//Get the button
+				var mybutton = document.getElementById("myBtn");
+				
+				// When the user scrolls down 20px from the top of the document, show the button
+				window.onscroll = function() {scrollFunction()};
+				
+				function scrollFunction() {
+				  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					mybutton.style.display = "block";
+				  } else {
+					mybutton.style.display = "none";
+				  }
+				}
+				
+				// When the user clicks on the button, scroll to the top of the document
+				function topFunction() {
+				  document.body.scrollTop = 0;
+				  document.documentElement.scrollTop = 0;
+				}
+				
+				</script>
 		  </a><h6><font color="black"><b>MouseClick Privacy Policy</b></font></h6></div>
 		<div style="background-color:lightgrey;padding:30px 30px 2500px">We at mouseclick computers and our Affiliates are committed to protecting your privacy. This Privacy Policy applies to the information and data collected by mouseclick when you interact with us on our websites or through other channels (for example, by contacting  to  us , and when you use our products and services. This Privacy Policy describes how we collect, receive, use, store, share, transfer, and process your Personal Data. It also describes your choices and rights with respect to your Personal Data, including your rights of access and correction of your Personal Data. If you do not agree with this Privacy Policy, you should not use our websites or the sign up Service <br>
 		  <strong>Customers may collect and manage Personal Data when using the sign up Service. mouseclick processes such data as a processor under the direction of our customers. Our customers, as data controllers, are responsible for complying with any regulations or laws that require providing notice, disclosure, and/or obtaining consent prior to collecting their customers’ Personal Data using the Slgn up Service. Please see the below section "Information We Collect and Process When You Use the sign up Service</strong>
@@ -227,27 +249,7 @@
 
 		</div>
 		
-		<script>
-		//Get the button
-		var mybutton = document.getElementById("myBtn");
 		
-		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function() {scrollFunction()};
-		
-		function scrollFunction() {
-		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			mybutton.style.display = "block";
-		  } else {
-			mybutton.style.display = "none";
-		  }
-		}
-		
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-		  document.body.scrollTop = 0;
-		  document.documentElement.scrollTop = 0;
-		}
-		</script>
 		</article>
   </section>
   
