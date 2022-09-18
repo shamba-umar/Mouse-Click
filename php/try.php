@@ -3,18 +3,18 @@
 
 $servername = "localhost";
 $username = " root";
-$password = "password";
+$password = "";
 $dbname = "mouseclick";
 
 // Create connection
-$conn = new mysqli($localhost, $root, $password, $mouseclick);
+$conn = new mysqli($servername, $username , $password, $mouseclick);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
 // sql to create table
-$sql = "CREATE TABLE click (
+$sql = "CREATE TABLE registration  (
 id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 firstname VARCHAR(20) NOT NULL,
 lastname VARCHAR(30) NOT NULL,

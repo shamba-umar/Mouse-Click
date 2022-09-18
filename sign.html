@@ -82,7 +82,13 @@ button:hover {
 
 </style>
 <body>
-    <form action="mouseclick.php" method="post"style="border:1px solid #ccc">
+    <form action="mouseclick.php" method="post" style="border:1px solid #ccc">
+
+      <?php if (isset($_GET['error'])) { ?>
+
+        <p class="error"><?php echo $_GET['error']; ?></p>
+
+    <?php } ?>
         <div class="container">
           <h1>Sign Up</h1>
           <p>Please fill in this form to create an account.</p>
