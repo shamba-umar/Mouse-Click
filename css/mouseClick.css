@@ -1212,7 +1212,7 @@ a:hover.back-to-top {
 		font-size: 3.75rem;
 		line-height: 4.625rem;
 	}
-	/* end of general styles */
+	/* end of general styles *
 	// Import all of Bootstrap's CSS
 	@import "~bootstrap/scss/bootstrap";
 
@@ -1280,7 +1280,7 @@ a:hover.back-to-top {
 		margin-right: 2.875rem;
 		margin-left: 2.875rem;
 	}
-	/* end of extra pages */
+	/* end of extra pages *
 }
 /* end of min-width 1200px */
 * {box-sizing: border-box}
@@ -1345,9 +1345,8 @@ button:hover {
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+/* Change styles for cancel button and signup button on extra small screens *
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
-}
