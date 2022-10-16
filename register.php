@@ -22,6 +22,7 @@ if (empty($_POST['username']) || empty($_POST['password']) || empty($_POST['emai
 	exit('Please complete the registration form');
 }
 
+<<<<<<< HEAD
 // We need to check if the account with that username exists.
 if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
 	if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
@@ -70,4 +71,7 @@ echo 'Please check your email to activate your account!';
 	echo 'Could not prepare statement!';
 }
 $con->close();
+=======
+
+>>>>>>> 0d3b258d75fbc5b2bb375d4285fdf55233306a03
 ?>
