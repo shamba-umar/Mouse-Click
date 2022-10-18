@@ -68,13 +68,7 @@ echo 'Please check your email to activate your account!';
 	// Something is wrong with the sql statement, check to make sure accounts table exists with all 3 fields.
 	echo 'Could not prepare statement!';
 }
-if ($account['activation_code'] == 'activated') {
-	// account is activated
-	// Display home page etc
-} else {
-	// account is not activated
-	// redirect user or display an error
-}
+
 
 $con->close();
 ?>
