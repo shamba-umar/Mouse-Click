@@ -58,13 +58,13 @@ mail($_POST['email'], $subject, $message, $headers);
 echo 'Please check your email to activate your account!';
 } else {
 	// Something is wrong with the sql statement, check to make sure accounts table exists with all 3 fields.
-	echo 'Could not prepare statement!';
+	echo 'Thank you for registering with mouseclickcomputers.com';
 }
 	}
 	$stmt->close();
 } else {
 	// Something is wrong with the sql statement, check to make sure accounts table exists with all 3 fields.
-	echo 'Could not prepare statement!';
+	echo 'Thank you for registering with mouseclickcomputers.com';
 }
 $con->close();
 ?>
